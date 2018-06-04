@@ -1,0 +1,227 @@
+.body{
+    min-width:1140px;  
+}
+.row-container{
+min-width:1140px;
+border-bottom:1px #d1d1d1 solid;
+
+}
+.row{
+    height:79px;
+    max-width:1140px;
+    min-width:1140px;
+    margin:0 auto !important;
+    padding-top:18px;
+    
+}
+
+.row li{
+    display:inline-block;
+    padding-right:41px;
+}
+.row li:hover{
+    color:#007bff;
+}
+.row img{
+    width: 58.4px;
+    height: 44px;
+    margin-right:24px;
+}
+.row button{
+    width:140px;
+    height: 44px;
+    border-radius: 4px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  display:inline-block
+  
+}
+.row btn:focus,.row btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+.row left{
+  font-family: "Open Sans";
+  font-weight: 900;
+  color: #5d6060;
+}
+.row ul{
+    display:inline-block;
+    margin-left: 165px;
+    
+}
+
+/* Container 1 - Title area*/
+
+
+.container-1{
+height:333px;
+width:100%;
+min-width:1140px;  
+
+}
+
+.body-1{
+margin:0 auto !important;
+max-width:1140px;    
+min-width:1120px;    
+text-align:center;
+
+}
+.body-1 h2{
+    font-size:60px;
+  font-family: "Sunflower";
+  padding-top:60px;
+  font-weight: 900;
+  color: #323232;
+  position: relative;
+  overflow-wrap: normal;
+  
+     
+}
+.body-1 button{
+    margin:15px;
+    margin-top:30px;
+    width:164px;
+    height:44px;
+    font-size:16px;    
+    font-weight:600;
+}
+ 
+ 
+ .body-1 h4{
+font-family: "Open Sans";
+   margin-top:20px;
+ }
+
+
+/* Container 2 - image*/
+
+.container-2{
+height:400px;
+/* background-color:green; */
+background-image: url("../img/1450-n-wenige-dr-unit-3-london-large-007-3-31450-n-wenige-dr-1500-x-1000-72-dpi@3x.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+min-width:1140px;  
+
+}
+
+/* Container 3 */
+
+.container-3{
+height:398px;
+background-color:orange;
+min-width:1140px;  
+
+
+
+}
+.container-4{
+height:602px;
+background-color:yellow;
+min-width:1140px;  
+
+}
+.container-5{
+height:322px;
+background-color:purple;
+min-width:1140px;  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+
+.footer-container{
+    border-bottom:1px #d1d1d1 solid;
+
+}
+.footer{
+    height:100px;
+    max-width:1140px;
+    min-width:1140px;    
+    
+    margin:0 auto !important;
+    padding-top:35px;
+}
+
+.footer li{
+    display:inline-block;
+    padding-right:41px;
+}
+.footer li:hover{
+    color:#007bff;
+}
+.footer img{
+    width: 40px;
+    height: 30px;
+    margin-right:24px;
+}
+.footer button{
+    width:140px;
+    height: 44px;
+    border-radius: 4px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  display:inline-block
+  
+}
+.footer btn:focus,.footer btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+ .footer left{
+    font-family: "Open Sans";
+    font-weight: 900;
+    color: #5d6060;
+    margin-left: 90px;
+  }
+  .footer right{
+    
+    margin-left: 90px;
+  }
+.footer ul{
+    display:inline-block;
+    margin-left: 214px;
+}
+
+/* 
+body{
+    display:none;
+} */
+
+@media only screen and (max-width: 769px) {
+    body {
+        display: none;
+    }
+}
