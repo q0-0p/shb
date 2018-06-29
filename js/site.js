@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    alert('<%: TempData["Resultat"]%>');
-  });
+// $(document).ready(function(){
+//     alert('<%: TempData["Resultat"]%>');
+//   });
